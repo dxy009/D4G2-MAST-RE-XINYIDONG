@@ -10,17 +10,18 @@ header{
   padding: 6em;
 }
 
-header::after{
-  background-color: #85144b;
-  content: "";
-  display:block;
-  width:120px;
-  height:120px;
-  position:absolute;
-  left:50%;
-  transform: translateX(-50%) translateY(-25%) rotate(45deg);
-
+.header-content-block {
+  background: rgba(170,170,170,0.6);
+  padding : 22px;
+  text-align: center;
 }
+
+.header-content-block h1 {
+  font-size: 4.25em;
+  text-align: center;
+}
+
+
 
 footer{
   background-color: #85144b ;
